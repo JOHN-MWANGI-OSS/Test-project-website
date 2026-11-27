@@ -34,48 +34,51 @@ span {
 }
 
 .box h2 {
-    text-shadow: 0 0 5px cyan, 0 0 5px cyan, 0 0 5px cyan;
+  text-shadow:
+    0 0 5px cyan,
+    0 0 5px cyan,
+    0 0 5px cyan;
+  position: absolute;
+  top: 40px;
+  left: 80px;
 }
 
 .box h2::before {
-    content: "❤️";
+  content: "❤️";
 }
 
 .box h2::after {
-    content: "❤️"
+  content: "❤️";
 }
+
 .box a {
-    display: inline-block;
-    width: 30%;
-    background: linear-gradient(45deg, white, grey);
-    padding: 0.5rem;
-    text-decoration: none;
-    color: magenta;
-    border-radius: 10px;
+  display: inline-block;
+  width: 30%;
+  background: linear-gradient(45deg, white, grey);
+  padding: 0.5rem;
+  text-decoration: none;
+  color: magenta;
+  border-radius: 10px;
 }
 
 .box a:hover {
-    background: linear-gradient(45deg, grey, white);
-    outline: 2px solid white;
-    outline-offset: 2px;
-}
-    position: absolute;
-    top: 40px;
-    left: 80px;
+  background: linear-gradient(45deg, grey, white);
+  outline: 2px solid white;
+  outline-offset: 2px;
 }
 
 a[href="#heading"] {
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.456);
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.456);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 a[href="#heading"]:hover {
-    outline: 2px solid cyan;
-    outline-offset: 2px;
+  outline: 2px solid cyan;
+  outline-offset: 2px;
 }

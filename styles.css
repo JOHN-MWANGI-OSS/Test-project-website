@@ -82,3 +82,7 @@ a[href="#heading"]:hover {
   outline: 2px solid cyan;
   outline-offset: 2px;
 }
+
+h1 {
+  text-align: center;
+}

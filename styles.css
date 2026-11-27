@@ -31,3 +31,15 @@ span {
   background-color: rgba(0, 0, 255, 0.303);
   padding: 2px;
 }
+
+.box h2 {
+    text-shadow: 0 0 5px cyan, 0 0 5px cyan, 0 0 5px cyan;
+}
+
+.box h2::before {
+    content: "❤️";
+}
+
+.box h2::after {
+    content: "❤️"
+}

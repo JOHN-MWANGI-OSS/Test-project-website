@@ -1,34 +1,33 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: green;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: inherit;
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: inherit;
 }
 
 .box {
-    background-color: rgba(255, 255, 255, 0.266);
-    padding: 2rem;
-    width: 80%;
-    text-align: center;
-    border-radius: 10px;
-    margin: 5rem auto;
-    border: 2px solid white;
-    box-shadow: 0 2px 5px white;
-    color: aqua;
+  background-color: rgba(255, 255, 255, 0.266);
+  padding: 2rem;
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+  margin: 5rem auto;
+  border: 2px solid white;
+  box-shadow: 0 2px 5px white;
+  color: aqua;
 }
 
 .box p {
-    margin: 1rem 0;
-    color: black
+  margin: 1rem 0;
+  color: black;
 }
 
 span {
-    background-color: rgba(0, 0, 255, 0.303);
-    padding: 2px;
-    border-radius: 10px;
+  background-color: rgba(0, 0, 255, 0.303);
+  padding: 2px;
 }

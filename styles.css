@@ -31,3 +31,19 @@ span {
   background-color: rgba(0, 0, 255, 0.303);
   padding: 2px;
 }
+
+.box a {
+    display: inline-block;
+    width: 30%;
+    background: linear-gradient(45deg, white, grey);
+    padding: 0.5rem;
+    text-decoration: none;
+    color: magenta;
+    border-radius: 10px;
+}
+
+.box a:hover {
+    background: linear-gradient(45deg, grey, white);
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
